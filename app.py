@@ -59,4 +59,4 @@ send()
 
 
 subprocess.run(["crontab", "-l"])  # 기존 cron 작업 확인
-subprocess.run(["echo", "20 11 * * * app.py "], shell=True)  # cron 작업 추가
+subprocess.run(["echo", "50 15 * * * app.py "], shell=True)  # cron 작업 추가
